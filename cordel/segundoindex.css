@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-size: 97vh;
+}
+header{
+    background-size: 5vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+header{
+    font-size: 5vh;
+    
+}
+header a{
+    text-decoration: none;
+    color: lightgray;
+    font-size: 0.7em;
+}
+header a:hover{
+    color: aqua;
+}
+main{
+    font-family: sans-serif;
+}
+section{
+    padding: 15px;
+    text-align: center;
+    line-height: 2em;
+}
+section p{
+    padding-bottom: 30px;
+}
+section.normal{
+    background-image: url("imagens/background003.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+    font-size: 3vw;
+    margin: auto;
+    
+}
+section.imagem{
+    box-shadow: inset 1px 0px 5px 0px black;
+    padding: 15px;
+    font-size: 3vw;
+    margin: auto;
+
+}
+section.imagem > p{
+    background-color: rgba(211, 211, 211, 0.612);
+    max-width: 500px;
+    padding: 15px;
+    font-size: 3vw;
+    margin: auto;
+    border-radius: 20px;
+}
+section#img01{
+    background-image: url("imagens/background001.jpg");
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: right center;
+}
+section#img02{
+    background-image: url("imagens/background002.jpg");
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: right center;
+}
+
+#botao{
+    background-color: rgba(0, 255, 255, 0);
+    background-image: url("imagens/27165.png");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    left: 87%;
+    bottom: 5%;
+}
+#botao:hover{
+    background-color: rgb(255, 0, 0);
+    background-image: url("imagens/copia.png");
+}
