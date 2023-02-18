@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+}
+h1{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding: 15px;
+}
+.perg{
+    background-color:aquamarine;
+    margin: 0px;
+    text-align: justify;
+    font-size: 1.5em;
+    padding: 0px;
+    text-align: center;
+}
+
+.resp{
+    text-align: center;
+    background-color:rgb(209, 209, 85);
+    padding: 5px;
+    margin: 0px;
+    font-size: 1.1em;
+}

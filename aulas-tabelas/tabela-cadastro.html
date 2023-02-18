@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela para <Colgroup></Colgroup></title>
+    <style>
+        table{
+            border-collapse:collapse;
+            font-family: sans-serif;
+            height: 90px;
+            width: 400px;
+        }
+        caption, tr, td, th{
+            border: 1px solid black;
+            text-align: center;
+        }
+        .nome{
+            background-color:lightblue;
+        }
+        caption{
+            background-color: mediumaquamarine;
+        }
+        h1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th{
+            background-color: mediumturquoise;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Tabelas Colgroup</h1>
+    <table>
+        <colgroup>
+            <col class="nome" span="4">
+        </colgroup>
+        <thead>
+            <caption>Cadastro</caption>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Cláudio</td>
+                <td>M</td>
+                <td>28</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Hélio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Vendedor</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>

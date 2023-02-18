@@ -1,0 +1,21 @@
+body{
+    
+
+    background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+    background-size: cover;
+
+/* 
+
+shorthands - background
+    color » image » position » repeat » [size] » attachement
+
+*/
+}
+main{
+    background-color: white;
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}

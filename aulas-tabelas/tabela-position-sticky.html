@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Semantica</title>
+    <style>
+        table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    height: 50px;
+    width: 400px;
+    position: relative;
+}
+caption{
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: rgb(63, 20, 204);
+    color: rgb(255, 255, 255); 
+}
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: rgb(108, 125, 255);
+    border: 1px solid black;
+}
+thead, tfoot{
+    background-color: rgb(108, 125, 255);
+    color: white;
+}
+th, td, caption{
+    border: 1px solid black;
+    padding: 10px;
+}
+.num{
+    text-align: right;
+}
+tbody > tr:nth-child(odd){ /*zebrado -- odd (impar) */
+    background-color: rgb(194, 200, 194);
+}
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- Anatomia para tabelas grandes
+        TABLE
+        caption - Titulo
+            THEAD
+                TR (LINHA), TD (DADOS), TH (CABEÇALHO)
+            TBODY
+                TR (LINHA), TD (DADOS), TH (CABEÇALHO)
+            TFOOT
+                TR (LINHA), TD (DADOS), TH (CABEÇALHO)
+    -->
+    <table>
+        <caption>
+            População dos Estados
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+
+        </thead>
+            
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">46.024.937</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">20.732.660</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16.615.526</td>
+            </tr>
+            <tr>
+                <td>City Fantasy Test</td>
+                <td class="num">16.615.526</td>
+            </tr>
+            <tr>
+                <td>City Fantasy Test1</td>
+                <td class="num">6.615.526</td>
+            </tr>
+            <tr>
+                <td>City Fantasy Test2</td>
+                <td class="num">615.526</td>
+            </tr>
+            <tr>
+                <td>City Fantasy Test3</td>
+                <td class="num">15.526</td>
+            </tr>
+            <tr>
+                <td>City Fantasy Test4</td>
+                <td class="num">5.526</td>
+            </tr>
+            <tr>
+                <td>City Fantasy Test5</td>
+                <td class="num">526</td>
+            </tr>
+            <tr>
+                <td>City Fantasy Test6</td>
+                <td class="num">26</td>
+            </tr>
+            <tr>
+                <td>City Fantasy Test7</td>
+                <td class="num">6</td>
+            </tr>
+            <tr>
+                <td>City Fantasy Test8</td>
+                <td class="num">1</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>999.888.123</strong></td>
+            </tr>
+
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem cupiditate debitis! Nisi, corrupti, impedit ut ullam adipisci aut nemo atque ad amet, nesciunt ducimus. Numquam est recusandae quidem accusamus?</p>
+</body>
+</html>
