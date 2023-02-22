@@ -5,9 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos iframe</title>
+    <style>
+        iframe{
+            height: 100px;
+            width: 100px;
+            border: 5px solid black;
+        }
+    </style>
 </head>
 <body>
+    <!--Tamanho padrão de um iframe é 300 largurax150pxaltura e a configuração do CSS é soberana-->
     <h1>Testando o uso de um iframe</h1>
-    <p>Acessando o site do Pedro Jackson para visualizar os seus repositórios</p>
+    <p>
+        Acessando o site do
+        
+        <iframe src="https://google.com.br" frameborder="0"></iframe>
+
+        para visualizar os seus repositórios.
+    </p>
+
+        <p>O site do <iframe src="http://sistema.pegasusfood.com.br/app/?_ga=2.226623645.1805320908.1652186427-348728733.1652186427&_gl=1*cpl2z1*_ga*MzQ4NzI4NzMzLjE2NTIxODY0Mjc.*_ga_9M1GEVH3Q7*MTY1MjM1NTI1MC44LjEuMTY1MjM1Njc4OC4w#/login" frameborder="0"></iframe> também é legal e funciona dentro do iframe</p>
+
+        O repositório do <iframe src="https://github.com/pedrojck" frameborder="0"></iframe> também é legal.
+    
 </body>
 </html>
