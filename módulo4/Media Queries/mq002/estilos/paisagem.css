@@ -3,6 +3,12 @@
 /*estilos para paisagem*/
 
 *{
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
 }

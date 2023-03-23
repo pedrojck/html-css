@@ -3,6 +3,13 @@
 /*estilos para retrato*/
 
 *{
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(../imagens/cev-portrait.jpg);
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
 }
