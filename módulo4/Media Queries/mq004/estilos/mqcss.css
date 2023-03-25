@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+/*todas as medias*/
+
+/*typical device breakpoints
+-------------------------------
+Pequenas Telas: até 600px
+Celular: de 600px até 768 px
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+Grandes Telas: acima de 1200px
+*/
+@media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    main h1 {
+        text-decoration: none;
+        text-shadow: none;
+        color: black;
+    }
+
+    main {
+        border: 2px solid black;
+        width: 90vw;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita em um teste de Pedro Jackson';
+        text-decoration: underline;
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#imp {
+        display: block;
+    }
+
+    img#desk {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: block;
+    }
+
+    img#imp {
+        display: none;
+    }
+
+    img#desk {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#imp {
+        display: none;
+    }
+
+    img#desk {
+        display: none;
+    }
+
+    img#tv {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width:1200px) {
+
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#imp {
+        display: none;
+    }
+
+    img#desk {
+        display: block;
+    }
+
+    img#tv {
+        display: none;
+    }
+}
