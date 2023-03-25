@@ -1,0 +1,9 @@
+@media print{
+
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    menu{
+        display: none;
+    }
+}
